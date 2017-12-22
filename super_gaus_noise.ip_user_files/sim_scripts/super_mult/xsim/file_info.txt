@@ -1,0 +1,1 @@
+super_mult.vhd,vhdl,xil_defaultlib,../../../../super_gaus_noise.srcs/sources_1/ip/super_mult/sim/super_mult.vhd,
