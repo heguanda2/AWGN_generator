@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Dec 22 13:29:43 2017
+# Process ID: 630544
+# Current directory: C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.sim/sim_1/behav/xsim.dir/gng_tb1_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.sim/sim_1/behav/xsim.dir/gng_tb1_behav/webtalk/xsim_webtalk.tcl -notrace

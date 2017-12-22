@@ -1,0 +1,7 @@
+Running: xsim.dir/gng_tb1_behav/xsimk.exe -simmode gui -wdb gng_tb1_behav.wdb -simrunnum 0 -socket 50984
+Design successfully loaded
+Design Loading Memory Usage: 11696 KB (Peak: 11696 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 21804 KB (Peak: 21804 KB)
+Simulation CPU Usage: 4711 ms

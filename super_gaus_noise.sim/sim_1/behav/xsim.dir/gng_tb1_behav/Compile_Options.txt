@@ -1,0 +1,1 @@
+-wto "bd23520c868f4bd486947ec067d32604" --debug "typical" --relax --mt "2" -L "xbip_utils_v3_0_7" -L "xbip_pipe_v3_0_3" -L "xbip_bram18k_v3_0_3" -L "mult_gen_v12_0_12" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "gng_tb1_behav" "xil_defaultlib.gng_tb1" "xil_defaultlib.glbl" -log "elaborate.log" 

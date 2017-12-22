@@ -1,0 +1,46 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto bd23520c868f4bd486947ec067d32604 --debug typical --relax --mt 2 -L xbip_utils_v3_0_7 -L xbip_pipe_v3_0_3 -L xbip_bram18k_v3_0_3 -L mult_gen_v12_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot gng_tb1_behav xil_defaultlib.gng_tb1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_12.mult_gen_v12_0_12_viv_comp
+Compiling package xbip_utils_v3_0_7.xbip_utils_v3_0_7_pkg
+Compiling package mult_gen_v12_0_12.mult_gen_v12_0_12_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling module xil_defaultlib.lzd
+Compiling module xil_defaultlib.seg_mem
+Compiling module xil_defaultlib.offset_delay
+Compiling module xil_defaultlib.coef_mem
+Compiling module xil_defaultlib.delay_one_clk
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="000011111111000011...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="111010111011111010...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="111111111111000000...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture xilinx of entity mult_gen_v12_0_12.three_input_adder [\three_input_adder(c_a_width=50,...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="111100000000111100...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="001111001100001111...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="000011111111111111...]
+Compiling architecture xilinx of entity mult_gen_v12_0_12.three_input_adder [\three_input_adder(c_a_width=50,...]
+Compiling architecture xilinx of entity mult_gen_v12_0_12.multmxn_lut6 [\multmxn_lut6(c_xdevicefamily="v...]
+Compiling architecture xilinx of entity mult_gen_v12_0_12.mult_gen_v12_0_12_viv [\mult_gen_v12_0_12_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_12.mult_gen_v12_0_12 [\mult_gen_v12_0_12(c_optimize_go...]
+Compiling architecture super_mult_arch of entity xil_defaultlib.super_mult [super_mult_default]
+Compiling module xil_defaultlib.delay_one_bit
+Compiling module xil_defaultlib.gng_top
+Compiling module xil_defaultlib.gng_tb1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot gng_tb1_behav
