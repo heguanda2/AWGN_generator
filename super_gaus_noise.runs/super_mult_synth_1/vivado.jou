@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Dec 22 10:16:13 2017
+# Process ID: 627680
+# Current directory: C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/super_mult_synth_1
+# Command line: vivado.exe -log super_mult.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source super_mult.tcl
+# Log file: C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/super_mult_synth_1/super_mult.vds
+# Journal file: C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/super_mult_synth_1\vivado.jou
+#-----------------------------------------------------------
+source super_mult.tcl -notrace

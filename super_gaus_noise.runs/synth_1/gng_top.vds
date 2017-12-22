@@ -1,0 +1,474 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Dec 22 12:09:36 2017
+# Process ID: 629508
+# Current directory: C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/synth_1
+# Command line: vivado.exe -log gng_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gng_top.tcl
+# Log file: C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/synth_1/gng_top.vds
+# Journal file: C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source gng_top.tcl -notrace
+Command: synth_design -top gng_top -part xc7vx690tffg1761-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx690t-ffg1761'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx690t-ffg1761'
+INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in 9 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 629036 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 374.063 ; gain = 71.906
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'gng_top' [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:23]
+INFO: [Synth 8-638] synthesizing module 'lzd' [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:107]
+INFO: [Synth 8-256] done synthesizing module 'lzd' (1#1) [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:107]
+INFO: [Synth 8-638] synthesizing module 'seg_mem' [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:129]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:135]
+INFO: [Synth 8-256] done synthesizing module 'seg_mem' (2#1) [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:129]
+INFO: [Synth 8-638] synthesizing module 'offset_delay' [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:428]
+INFO: [Synth 8-256] done synthesizing module 'offset_delay' (3#1) [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:428]
+INFO: [Synth 8-638] synthesizing module 'coef_mem' [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:150]
+INFO: [Synth 8-256] done synthesizing module 'coef_mem' (4#1) [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:150]
+INFO: [Synth 8-638] synthesizing module 'delay_one_clk' [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:96]
+INFO: [Synth 8-256] done synthesizing module 'delay_one_clk' (5#1) [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:96]
+INFO: [Synth 8-638] synthesizing module 'super_mult' [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/synth_1/.Xil/Vivado-629508-Lab-PC/realtime/super_mult_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'super_mult' (6#1) [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/synth_1/.Xil/Vivado-629508-Lab-PC/realtime/super_mult_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'delay_one_bit' [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:417]
+INFO: [Synth 8-256] done synthesizing module 'delay_one_bit' (7#1) [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:417]
+INFO: [Synth 8-256] done synthesizing module 'gng_top' (8#1) [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:23]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[55]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[54]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[53]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[52]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[51]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[50]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[49]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[48]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[47]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[46]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[45]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[44]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[43]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[42]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[41]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[40]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[39]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[38]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[37]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[36]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[35]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[34]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[33]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[32]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[31]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[30]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[29]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[28]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[27]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[26]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[25]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[24]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[23]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[22]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 414.141 ; gain = 111.984
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 414.141 ; gain = 111.984
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx690tffg1761-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/synth_1/.Xil/Vivado-629508-Lab-PC/dcp3/super_mult_in_context.xdc] for cell 'mult0'
+Finished Parsing XDC File [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/synth_1/.Xil/Vivado-629508-Lab-PC/dcp3/super_mult_in_context.xdc] for cell 'mult0'
+Parsing XDC File [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/synth_1/.Xil/Vivado-629508-Lab-PC/dcp3/super_mult_in_context.xdc] for cell 'mult1'
+Finished Parsing XDC File [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/synth_1/.Xil/Vivado-629508-Lab-PC/dcp3/super_mult_in_context.xdc] for cell 'mult1'
+Parsing XDC File [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/synth_1/.Xil/Vivado-629508-Lab-PC/dcp3/super_mult_in_context.xdc] for cell 'mult2'
+Finished Parsing XDC File [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/synth_1/.Xil/Vivado-629508-Lab-PC/dcp3/super_mult_in_context.xdc] for cell 'mult2'
+Parsing XDC File [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/constrs_1/new/gaus.xdc]
+Finished Parsing XDC File [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/constrs_1/new/gaus.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 906.586 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'mult0' at clock pin 'CLK' is different from the actual clock period '6.400', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'mult1' at clock pin 'CLK' is different from the actual clock period '6.400', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'mult2' at clock pin 'CLK' is different from the actual clock period '6.400', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx690tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for mult0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for mult1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for mult2. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element coef_reg was removed.  [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:157]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               54 Bit    Registers := 1     
+	               25 Bit    Registers := 5     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input     25 Bit        Muxes := 1     
+	   9 Input      8 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module gng_top 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     25 Bit       Adders := 1     
+	   2 Input     25 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     25 Bit        Muxes := 1     
+Module lzd 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   9 Input      4 Bit        Muxes := 1     
+Module seg_mem 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   9 Input      8 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+Module offset_delay 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module coef_mem 
+Detailed RTL Component Info : 
++---Registers : 
+	               54 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module delay_one_clk 
+Detailed RTL Component Info : 
++---Registers : 
+	               25 Bit    Registers := 1     
+Module delay_one_bit 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 3600 (col length:200)
+BRAMs: 2940 (col length: RAMB18 200 RAMB36 100)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element rom1/coef_reg was removed.  [C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.srcs/sources_1/new/gng_top.v:157]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[55]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[54]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[53]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[52]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[51]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[50]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[49]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[48]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[47]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[46]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[45]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[44]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[43]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[42]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[41]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[40]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[39]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[38]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[37]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[36]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[35]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[34]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[33]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[32]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[31]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[30]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[29]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[28]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[27]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[26]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[25]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[24]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[23]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[22]
+WARNING: [Synth 8-3331] design gng_top has unconnected port unif_in[21]
+INFO: [Synth 8-3886] merging instance 'rom0/index_reg[0]' (FDE) to 'rom0/index_reg[4]'
+INFO: [Synth 8-3886] merging instance 'rom0/index_reg[1]' (FDE) to 'rom0/index_reg[4]'
+INFO: [Synth 8-3886] merging instance 'rom0/index_reg[2]' (FDE) to 'rom0/index_reg[4]'
+INFO: [Synth 8-3886] merging instance 'rom0/index_reg[3]' (FDE) to 'rom0/index_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\rom0/index_reg[4] )
+INFO: [Synth 8-3886] merging instance 'dly4/out_reg[0]' (FD) to 'dly4/out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'dly4/out_reg[1]' (FD) to 'dly4/out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'dly4/out_reg[2]' (FD) to 'dly4/out_reg[3]'
+INFO: [Synth 8-3886] merging instance 'dly4/out_reg[3]' (FD) to 'dly4/out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'dly4/out_reg[4]' (FD) to 'dly4/out_reg[5]'
+INFO: [Synth 8-3886] merging instance 'dly4/out_reg[5]' (FD) to 'dly4/out_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\dly4/out_reg[6] )
+WARNING: [Synth 8-3332] Sequential element (rom0/index_reg[4]) is unused and will be removed from module gng_top.
+WARNING: [Synth 8-3332] Sequential element (dly4/out_reg[6]) is unused and will be removed from module gng_top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+---------------+---------------+----------------+
+|Module Name | RTL Object    | Depth x Width | Implemented As | 
++------------+---------------+---------------+----------------+
+|coef_mem    | coef_reg      | 256x54        | Block RAM      | 
+|gng_top     | rom1/coef_reg | 256x54        | Block RAM      | 
++------------+---------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance rom1/coef_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance rom1/coef_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+--------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name     | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+--------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|gng_top     | dly8/out_reg | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
++------------+--------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |super_mult    |         3|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |super_mult    |     1|
+|2     |super_mult__1 |     1|
+|3     |super_mult__2 |     1|
+|4     |BUFG          |     1|
+|5     |CARRY4        |    13|
+|6     |LUT1          |    26|
+|7     |LUT2          |    10|
+|8     |LUT3          |    32|
+|9     |LUT4          |    25|
+|10    |LUT5          |     2|
+|11    |LUT6          |     4|
+|12    |RAMB18E1      |     1|
+|13    |RAMB18E1_1    |     1|
+|14    |SRL16E        |     1|
+|15    |FDRE          |    79|
+|16    |IBUF          |    29|
+|17    |OBUF          |    16|
++------+--------------+------+
+
+Report Instance Areas: 
++------+---------+----------------+------+
+|      |Instance |Module          |Cells |
++------+---------+----------------+------+
+|1     |top      |                |   315|
+|2     |  dly1   |delay_one_clk   |    15|
+|3     |  dly2   |delay_one_clk_0 |    15|
+|4     |  dly3   |delay_one_clk_1 |    15|
+|5     |  dly32  |delay_one_clk_2 |    15|
+|6     |  dly5   |delay_one_bit   |     1|
+|7     |  dly7   |delay_one_bit_3 |     1|
+|8     |  dly8   |delay_one_bit_4 |     6|
+|9     |  lzd_go |lzd             |    11|
+|10    |  mm0    |offset_delay    |     5|
+|11    |  mm1    |offset_delay_5  |     5|
+|12    |  rom0   |seg_mem         |     6|
+|13    |  rom1   |coef_mem        |    75|
++------+---------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 906.586 ; gain = 604.430
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 39 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 906.586 ; gain = 111.984
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 906.586 ; gain = 604.430
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 44 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+42 Infos, 77 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 906.586 ; gain = 614.047
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Lab/Desktop/Gengchen_stuff/super_gaus_noise/super_gaus_noise.runs/synth_1/gng_top.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 906.586 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 22 12:10:17 2017...
